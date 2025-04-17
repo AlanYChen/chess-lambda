@@ -1,6 +1,6 @@
 from stockfishPython import Stockfish
 
-executable_path = "stockfish"
+executable_path = "/var/task/stockfish"
 fen = "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1"
 
 stockfish = Stockfish(path=executable_path)
